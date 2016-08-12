@@ -9,27 +9,29 @@
 import UIKit
 import SwiftExpression
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var exampleTextView: UITextView!
-    @IBOutlet weak var outputTextView: UITextView!
+    @IBOutlet weak var inputTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        dispatch_async(dispatch_get_main_queue()) {
-            if let exampleText = self.exampleTextView.text {
-                let regexWords = Regex(pattern: "(a|e|i|o|u)+")
-                self.exampleTextView.attributedText = self.highlight(exampleText, matching: regexWords)
-            }
-        }
+        inputTextField.delegate = self
     }
     
-    func highlight(text: String, matching regex: Regex) -> NSAttributedString {
-        let attributedString = NSMutableAttributedString(string: text)
-        for (_, (_, range)) in text.match(regex).components.enumerate() {
-            attributedString.addAttributes([NSBackgroundColorAttributeName: UIColor.yellowColor()], range: NSRange(location: text.startIndex.distanceTo(range.startIndex), length: range.startIndex.distanceTo(range.endIndex)))
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        if let text = textField.text, regex = Regex(pattern: text) {
+            highlightTextView(matching: regex)
         }
-        return attributedString
+        return true
+    }
+    
+    func highlightTextView(matching regex: Regex) {
+        let attributedString = NSMutableAttributedString(string: exampleTextView.text)
+        for range in exampleTextView.text.match(regex).ranges() {
+            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFontOfSize(14), NSBackgroundColorAttributeName: UIColor.redColor()], range: NSRange(location: exampleTextView.text.startIndex.distanceTo(range.startIndex), length: range.startIndex.distanceTo(range.endIndex)))
+        }
+        exampleTextView.attributedText = attributedString
     }
 }

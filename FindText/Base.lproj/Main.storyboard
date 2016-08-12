@@ -19,11 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Rk-jA-WrR">
-                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                                <rect key="frame" x="20" y="58" width="560" height="522"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Welcome to RegExr v2.1 by gskinner.com, proudly hosted by Media Temple!
-
-Edit the Expression &amp; Text to see matches. Roll over matches or the expression for details. Undo mistakes with cmd-z. Save Favorites &amp; Share expressions with friends or the Community. Explore your results with Tools. A full Reference &amp; Help is available in the Library, or watch the video Tutorial.
+                                <mutableString key="text">Edit the textfield above &amp; press the return key on the keyboard to see matches highlight. You can also edit this text as well.
 
 Sample text for testing:
 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -37,17 +35,26 @@ https://mediatemple.net hahaha haa ha</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kgT-3o-fB5">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3sm-Ur-Xqr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Rk-jA-WrR" secondAttribute="bottom" id="873-W3-kwe"/>
-                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ore-J6-58I"/>
-                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="t0I-ZZ-asJ"/>
+                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="top" secondItem="kgT-3o-fB5" secondAttribute="bottom" constant="8" symbolic="YES" id="28M-kS-Fyh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Rk-jA-WrR" secondAttribute="bottom" constant="20" id="BDe-fX-OPo"/>
+                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ORx-VR-UZ9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kgT-3o-fB5" secondAttribute="trailing" id="TCM-Pa-ggB"/>
+                            <constraint firstItem="kgT-3o-fB5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hO5-sT-fwQ"/>
+                            <constraint firstItem="kgT-3o-fB5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="izw-Pq-sys"/>
+                            <constraint firstItem="2Rk-jA-WrR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tFH-B8-S8g"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="exampleTextView" destination="2Rk-jA-WrR" id="fns-Xl-LLu"/>
+                        <outlet property="inputTextField" destination="kgT-3o-fB5" id="eJ0-X4-3A8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
