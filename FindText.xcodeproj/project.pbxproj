@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57490F8161BAB8B21E87C46E /* Pods_FindText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */; };
 		9416BA961D4E9F9C00D84194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BA951D4E9F9C00D84194 /* AppDelegate.swift */; };
 		9416BA981D4E9F9C00D84194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BA971D4E9F9C00D84194 /* ViewController.swift */; };
 		9416BA9B1D4E9F9C00D84194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9416BA991D4E9F9C00D84194 /* Main.storyboard */; };
@@ -15,8 +16,6 @@
 		9416BAA31D4E9F9C00D84194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9416BAA11D4E9F9C00D84194 /* LaunchScreen.storyboard */; };
 		9416BAAE1D4E9F9C00D84194 /* FindTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BAAD1D4E9F9C00D84194 /* FindTextTests.swift */; };
 		9416BAB91D4E9F9C00D84194 /* FindTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BAB81D4E9F9C00D84194 /* FindTextUITests.swift */; };
-		9443013B1D4EF3D600B110CF /* SwiftExpression.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944301391D4EF3CE00B110CF /* SwiftExpression.framework */; };
-		9443013C1D4EF3D600B110CF /* SwiftExpression.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 944301391D4EF3CE00B110CF /* SwiftExpression.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +35,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		944301101D4EC26C00B110CF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9443013C1D4EF3D600B110CF /* SwiftExpression.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		05BB37C74A2A5D975589C2E4 /* Pods_FindTextUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindTextUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindText/Pods-FindText.release.xcconfig"; sourceTree = "<group>"; };
 		9416BA921D4E9F9C00D84194 /* FindText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416BA951D4E9F9C00D84194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9416BA971D4E9F9C00D84194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +52,11 @@
 		9416BAB41D4E9F9C00D84194 /* FindTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416BAB81D4E9F9C00D84194 /* FindTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTextUITests.swift; sourceTree = "<group>"; };
 		9416BABA1D4E9F9C00D84194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		944301391D4EF3CE00B110CF /* SwiftExpression.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftExpression.framework; sourceTree = "<group>"; };
+		944B7E361D5DA083001AD2B3 /* Pods_FindText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_FindText.framework; path = "../../Library/Developer/Xcode/DerivedData/FindText-cpxonopkhkttqqhgssicnwwqhtwo/Build/Products/Debug-iphonesimulator/Pods_FindText.framework"; sourceTree = "<group>"; };
+		94CA4FD21D5D9E55005953B6 /* SwiftExpression.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftExpression.framework; path = "../../Library/Developer/Xcode/DerivedData/FindText-cpxonopkhkttqqhgssicnwwqhtwo/Build/Products/Debug-iphonesimulator/SwiftExpression/SwiftExpression.framework"; sourceTree = "<group>"; };
+		9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindText/Pods-FindText.debug.xcconfig"; sourceTree = "<group>"; };
+		C36D275C54ADE8B25D33206D /* Pods_FindTextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindTextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9443013B1D4EF3D600B110CF /* SwiftExpression.framework in Frameworks */,
+				57490F8161BAB8B21E87C46E /* Pods_FindText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,14 +85,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09DADE3C2B1301A8D84888BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */,
+				22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DC3B797617AFA7A83D9FE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944B7E361D5DA083001AD2B3 /* Pods_FindText.framework */,
+				94CA4FD21D5D9E55005953B6 /* SwiftExpression.framework */,
+				9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */,
+				C36D275C54ADE8B25D33206D /* Pods_FindTextTests.framework */,
+				05BB37C74A2A5D975589C2E4 /* Pods_FindTextUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9416BA891D4E9F9C00D84194 = {
 			isa = PBXGroup;
 			children = (
-				944301391D4EF3CE00B110CF /* SwiftExpression.framework */,
 				9416BA941D4E9F9C00D84194 /* FindText */,
 				9416BAAC1D4E9F9C00D84194 /* FindTextTests */,
 				9416BAB71D4E9F9C00D84194 /* FindTextUITests */,
 				9416BA931D4E9F9C00D84194 /* Products */,
+				09DADE3C2B1301A8D84888BC /* Pods */,
+				1DC3B797617AFA7A83D9FE6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,10 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9416BABD1D4E9F9C00D84194 /* Build configuration list for PBXNativeTarget "FindText" */;
 			buildPhases = (
+				7BE5AA652C38161EAFA9343A /* 📦 Check Pods Manifest.lock */,
 				9416BA8E1D4E9F9C00D84194 /* Sources */,
 				9416BA8F1D4E9F9C00D84194 /* Frameworks */,
 				9416BA901D4E9F9C00D84194 /* Resources */,
-				944301101D4EC26C00B110CF /* Embed Frameworks */,
+				6AA8E9541D650F7716C59C16 /* 📦 Embed Pods Frameworks */,
+				7F4611B51021A7528F2A1A90 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +288,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AA8E9541D650F7716C59C16 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindText/Pods-FindText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE5AA652C38161EAFA9343A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4611B51021A7528F2A1A90 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindText/Pods-FindText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9416BA8E1D4E9F9C00D84194 /* Sources */ = {
@@ -423,6 +486,7 @@
 		};
 		9416BABE1D4E9F9C00D84194 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +503,7 @@
 		};
 		9416BABF1D4E9F9C00D84194 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

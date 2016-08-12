@@ -1,0 +1,12 @@
+PODS:
+  - SwiftExpression (1.2)
+
+DEPENDENCIES:
+  - SwiftExpression
+
+SPEC CHECKSUMS:
+  SwiftExpression: 1617ca139576d1ae03e54c9183ce02df3d6b88ff
+
+PODFILE CHECKSUM: 3f29af98bc37fe2fa928b89a33eee63f50eee1d9
+
+COCOAPODS: 1.0.0
