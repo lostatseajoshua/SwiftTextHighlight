@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func highlightTextView(matching regex: Regex) {
         let attributedString = NSMutableAttributedString(string: exampleTextView.text)
         for range in exampleTextView.text.match(regex).ranges() {
-            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFontOfSize(14), NSBackgroundColorAttributeName: UIColor.redColor()], range: NSRange(location: exampleTextView.text.startIndex.distanceTo(range.startIndex), length: range.startIndex.distanceTo(range.endIndex)))
+            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFontOfSize(14), NSForegroundColorAttributeName: UIColor.whiteColor(), NSBackgroundColorAttributeName: UIColor.purpleColor()], range: NSRange(location: exampleTextView.text.startIndex.distanceTo(range.startIndex), length: range.startIndex.distanceTo(range.endIndex)))
         }
         exampleTextView.attributedText = attributedString
     }
