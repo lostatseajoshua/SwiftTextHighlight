@@ -4,7 +4,7 @@ Highlight text with using SwiftExpression Regex framework
 
 ## Installation
 
-Requires Xcode 7+
+Requires Xcode 7+ & iOS 8.0+
 
 Clone the repo and just run.
 
