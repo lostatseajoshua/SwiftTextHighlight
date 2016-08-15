@@ -14,10 +14,14 @@ The SwiftExpression (v1.2) cocoapod has been already checked into the repo so no
 Use the textfield to enter in a regex and tap return on the keyboard and watch the matches highlight!
 
 ## Screenshots
+--
+![Sample of SwiftTextHighlight](https://github.com/lostatseajoshua/SwiftTextHighlight/blob/develop/sample0.png)
+--
 ![Sample of SwiftTextHighlight](https://github.com/lostatseajoshua/SwiftTextHighlight/blob/develop/Sample1.png)
+--
 ![Sample of SwiftTextHighlight](https://github.com/lostatseajoshua/SwiftTextHighlight/blob/develop/Sample2.png)
+--
 ![Sample of SwiftTextHighlight](https://github.com/lostatseajoshua/SwiftTextHighlight/blob/develop/Sample3.png)
-![Sample of SwiftTextHighlight](https://github.com/lostatseajoshua/SwiftTextHighlight/blob/develop/Sample4.png)
 
 ## Contributing
 
