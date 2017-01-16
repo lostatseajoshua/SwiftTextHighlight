@@ -4,11 +4,15 @@ Highlight text with using SwiftExpression Regex framework
 
 ## Installation
 
-Requires Xcode 7+ & iOS 8.0+
+Xcode 8
+
+Swift 3
+
+iOS 8.0+
 
 Clone the repo and just run.
 
-The SwiftExpression (v1.2) cocoapod has been already checked into the repo so no need to `pod install`
+The SwiftExpression (v2.0) cocoapod has been already checked into the repo so no need to `pod install`
 
 ## Usage
 Use the textfield to enter in a regex and tap return on the keyboard and watch the matches highlight!
