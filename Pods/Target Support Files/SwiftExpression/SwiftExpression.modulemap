@@ -1,0 +1,6 @@
+framework module SwiftExpression {
+  umbrella header "SwiftExpression-umbrella.h"
+
+  export *
+  module * { export * }
+}
