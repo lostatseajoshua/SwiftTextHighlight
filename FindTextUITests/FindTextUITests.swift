@@ -28,9 +28,11 @@ class FindTextUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testWordRegex() {
+        let app = XCUIApplication()
+        let textField = app.children(matching: .window).element(boundBy: 0).otherElements.children(matching: .textField).element
+        textField.tap()
+        textField.typeText("\\w")
+        app.typeText("\r")
     }
-    
 }
