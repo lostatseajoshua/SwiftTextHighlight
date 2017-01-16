@@ -1,12 +1,12 @@
 PODS:
-  - SwiftExpression (1.2)
+  - SwiftExpression (2.0)
 
 DEPENDENCIES:
-  - SwiftExpression
+  - SwiftExpression (~> 2.0)
 
 SPEC CHECKSUMS:
-  SwiftExpression: 1617ca139576d1ae03e54c9183ce02df3d6b88ff
+  SwiftExpression: 8ca5585a5b45ad6f5db32afcc3458d2e8ecc8d44
 
-PODFILE CHECKSUM: 3f29af98bc37fe2fa928b89a33eee63f50eee1d9
+PODFILE CHECKSUM: 50f216eece8201b5956a6221e6e4055068914480
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1

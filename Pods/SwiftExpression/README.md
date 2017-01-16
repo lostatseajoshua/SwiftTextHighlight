@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/lostatseajoshua/SwiftExpression.svg?branch=master)](https://travis-ci.org/lostatseajoshua/SwiftExpression)
+[![Build Status](https://travis-ci.org/lostatseajoshua/SwiftExpression.svg?branch=master)](https://travis-ci.org/lostatseajoshua/SwiftExpression) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/lostatseajoshua/SwiftExpression)
 # SwiftExpression
 Swift Expression is a Regex framework built with Swift to make it easier to work with NSRegularExpression. The framework provides low overhead to work with pattern mathcing.
 
@@ -49,12 +49,17 @@ match.ranges() // Returns a collection of ranges of the matches [Range<String.In
 
 Replace
 ```swift
-str.replace(regex, replaceStr) // Returns a new string with matches replaced with replacement string
+str.replace(regex, with: replaceStr) // Returns a new string with matches replaced with replacement string
 ```
 
 Search
-```
+```swift
 str.search(regex) // Returns an optional Int of the location of the range of the first match found in the string
+```
+
+Find
+```swift
+str.find(regex) // Returns true if a match exists in the string
 ```
 
 ## Installation
@@ -72,16 +77,43 @@ target 'MyApp' do
 end
 ```
 
+#### Carthage
+
+You can use [Carthage](https://github.com/Carthage/Carthage) to install `SwiftExpression` by adding it to your `Cartfile`:
+
+```swift
+github "lostatseajoshua/SwiftExpression"
+```
+
+#### Swift Package Manager
+
+```swift
+import PackageDescription
+
+let package = Package(
+    name: "YourProject",
+    targets: [],
+    dependencies: [
+        .Package(url: "https://github.com/lostatseajoshua/SwiftExpression.git",
+                 majorVersion: 2),
+    ]
+)
+```
+
 #### Manually
 
 To use this library in your project manually do the following.
 
-Projects: just drag Regex.swift into the project (check copy items if needed)
+Add the SwiftExpression.framework to your project by downloading the framework from the [releases](https://github.com/lostatseajoshua/SwiftExpression/releases)
 
-Workspaces: include the whole SwiftExpression.xcodeproj
+## Demo
+
+Checkout this demo project that was built with SwiftExpression. It highlights text in a UITextView using regex pattern that is inputted into a UITextField!
+
+[Demo Github project](https://github.com/lostatseajoshua/SwiftTextHighlight)
 
 ## Contributors
 Joshua Alvarado - [Twitter](https://www.twitter.com/alvaradojoshua0) - [Website](http://www.strictlyswift.com)
 
 ## License
-This project is released under the [MIT license](https://github.com/realm/jazzy/blob/master/LICENSE).
+This project is released under the [MIT license](https://github.com/lostatseajoshua/SwiftExpression/blob/master/LICENSE).
