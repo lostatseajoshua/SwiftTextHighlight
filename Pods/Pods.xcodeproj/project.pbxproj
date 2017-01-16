@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C406AECE9ED1B44D2867BF5918B05F2 /* Pods-FindText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7984664018B26ED1B1A8B7F60052EA6F /* Pods-FindText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29AB2CFC9A4AF3F359F03544489F2269 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6C05077A2FA270361685F3E199820 /* Regex.swift */; };
-		6999E96C2597532F1B3980537409F3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		7C1D0BCB6312F117F05EA8858C29CC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9F8A0E777A6888F50988596585B04FBC /* Pods-FindText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD46E92DF2DF52E2B2347594F864A06A /* Pods-FindText-dummy.m */; };
-		BA4350CA53804AAF14C08A141CB043AA /* SwiftExpression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA747E45B816B2B9ABE535F7054301 /* SwiftExpression-dummy.m */; };
-		D198DC94D2A3889FC82E7BB9ED9A49F0 /* SwiftExpression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B608A693DF357CC7891AF6597602426B /* SwiftExpression-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C3726618D62816F389B07988EB4A933 /* Pods-FindText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7984664018B26ED1B1A8B7F60052EA6F /* Pods-FindText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431C91F14FE22D50D3F10EFD8A36D465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4C28CFA25BE17C44A2C10029494980AB /* SwiftExpression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B608A693DF357CC7891AF6597602426B /* SwiftExpression-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5815FC59294D596BE0FF2FF1364FE369 /* SwiftExpression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA747E45B816B2B9ABE535F7054301 /* SwiftExpression-dummy.m */; };
+		7E9DEF448AB93270FB665194AC1B7354 /* Pods-FindText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD46E92DF2DF52E2B2347594F864A06A /* Pods-FindText-dummy.m */; };
+		8452A6F14816A55B18594A8C204CF10D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6C05077A2FA270361685F3E199820 /* Regex.swift */; };
+		B35A7CB19853BB6E6553B9C3EE1D438A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F090245ADDCB7414F3646B70168B9DB5 /* PBXContainerItemProxy */ = {
+		6EFBEE0BBFE6AA6DF366D28E3A4D4430 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3F5861FA5AB45DFF5DABF8A8700354D;
+			remoteGlobalIDString = 6CE2DD031B527F916CC21E8350263258;
 			remoteInfo = SwiftExpression;
 		};
 /* End PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		B3FDD89739594B20D756CAD76C8343F1 /* Pods-FindText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindText.release.xcconfig"; sourceTree = "<group>"; };
 		B608A693DF357CC7891AF6597602426B /* SwiftExpression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftExpression-umbrella.h"; sourceTree = "<group>"; };
 		BC6D59D57E0E7660F0100494E44E7D5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DDFBEC1A265EC45029865FC6A43A6655 /* SwiftExpression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExpression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A6BED20A1285C7BFE38126F3794A6E /* SwiftExpression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftExpression-prefix.pch"; sourceTree = "<group>"; };
 		F5427C9259B38BF417783425E1BFF301 /* Pods-FindText-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindText-frameworks.sh"; sourceTree = "<group>"; };
@@ -51,19 +51,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		486DA3CDC7A122E22990D861D72B3D1B /* Frameworks */ = {
+		2F3AD5BEE0AC11F0063320838DA07E43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6999E96C2597532F1B3980537409F3A5 /* Foundation.framework in Frameworks */,
+				431C91F14FE22D50D3F10EFD8A36D465 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64C711FAC68D77C46E9598CB6620495D /* Frameworks */ = {
+		4880A6F07731A71B3EF4E055F33A3DDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1D0BCB6312F117F05EA8858C29CC38 /* Foundation.framework in Frameworks */,
+				B35A7CB19853BB6E6553B9C3EE1D438A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +101,10 @@
 			path = "../Target Support Files/SwiftExpression";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,50 +166,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A44CD1EAA52CB291287EA6A69F02C4E5 /* Headers */ = {
+		A29FE730EE8AD55003E9ACF88DCB0842 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D198DC94D2A3889FC82E7BB9ED9A49F0 /* SwiftExpression-umbrella.h in Headers */,
+				1C3726618D62816F389B07988EB4A933 /* Pods-FindText-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF819BCD96FD7CF533F94CDC805CCEDF /* Headers */ = {
+		EF330CC9A7A192A1DC80FBE6B418B514 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C406AECE9ED1B44D2867BF5918B05F2 /* Pods-FindText-umbrella.h in Headers */,
+				4C28CFA25BE17C44A2C10029494980AB /* SwiftExpression-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18B0E9524676A796545183D72076DC5C /* Pods-FindText */ = {
+		6CE2DD031B527F916CC21E8350263258 /* SwiftExpression */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A87E5A4C26E7AEB1D3B53F70A550033 /* Build configuration list for PBXNativeTarget "Pods-FindText" */;
+			buildConfigurationList = 995BB6E2DCD7DD26B128C655E4DEE185 /* Build configuration list for PBXNativeTarget "SwiftExpression" */;
 			buildPhases = (
-				DA7EC73DAD3922A2985AAC4604E3F251 /* Sources */,
-				64C711FAC68D77C46E9598CB6620495D /* Frameworks */,
-				AF819BCD96FD7CF533F94CDC805CCEDF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C6BF9CAF346389AC62A0212EA8EB8A5F /* PBXTargetDependency */,
-			);
-			name = "Pods-FindText";
-			productName = "Pods-FindText";
-			productReference = 97E289BDECBB127E604A6FC625C8E45E /* Pods_FindText.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C3F5861FA5AB45DFF5DABF8A8700354D /* SwiftExpression */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E0BFD6E89EBCA419858DE748E6D37F /* Build configuration list for PBXNativeTarget "SwiftExpression" */;
-			buildPhases = (
-				818AAACEA8D5848E7C4340AD1F21A92B /* Sources */,
-				486DA3CDC7A122E22990D861D72B3D1B /* Frameworks */,
-				A44CD1EAA52CB291287EA6A69F02C4E5 /* Headers */,
+				8E2C8620300B95BDEE21B7B113CFC81B /* Sources */,
+				4880A6F07731A71B3EF4E055F33A3DDE /* Frameworks */,
+				EF330CC9A7A192A1DC80FBE6B418B514 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -218,6 +200,24 @@
 			name = SwiftExpression;
 			productName = SwiftExpression;
 			productReference = DDFBEC1A265EC45029865FC6A43A6655 /* SwiftExpression.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0E3A1963DCF9E76BF604547F7C8EDC2 /* Pods-FindText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6FD53F0834957129990215C2E307A2 /* Build configuration list for PBXNativeTarget "Pods-FindText" */;
+			buildPhases = (
+				4734D788A943808685721C6F6F273026 /* Sources */,
+				2F3AD5BEE0AC11F0063320838DA07E43 /* Frameworks */,
+				A29FE730EE8AD55003E9ACF88DCB0842 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762DBA37BA2073365B5A3685A1FB173E /* PBXTargetDependency */,
+			);
+			name = "Pods-FindText";
+			productName = "Pods-FindText";
+			productReference = 97E289BDECBB127E604A6FC625C8E45E /* Pods_FindText.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,140 +241,43 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18B0E9524676A796545183D72076DC5C /* Pods-FindText */,
-				C3F5861FA5AB45DFF5DABF8A8700354D /* SwiftExpression */,
+				C0E3A1963DCF9E76BF604547F7C8EDC2 /* Pods-FindText */,
+				6CE2DD031B527F916CC21E8350263258 /* SwiftExpression */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		818AAACEA8D5848E7C4340AD1F21A92B /* Sources */ = {
+		4734D788A943808685721C6F6F273026 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AB2CFC9A4AF3F359F03544489F2269 /* Regex.swift in Sources */,
-				BA4350CA53804AAF14C08A141CB043AA /* SwiftExpression-dummy.m in Sources */,
+				7E9DEF448AB93270FB665194AC1B7354 /* Pods-FindText-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA7EC73DAD3922A2985AAC4604E3F251 /* Sources */ = {
+		8E2C8620300B95BDEE21B7B113CFC81B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8A0E777A6888F50988596585B04FBC /* Pods-FindText-dummy.m in Sources */,
+				8452A6F14816A55B18594A8C204CF10D /* Regex.swift in Sources */,
+				5815FC59294D596BE0FF2FF1364FE369 /* SwiftExpression-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C6BF9CAF346389AC62A0212EA8EB8A5F /* PBXTargetDependency */ = {
+		762DBA37BA2073365B5A3685A1FB173E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftExpression;
-			target = C3F5861FA5AB45DFF5DABF8A8700354D /* SwiftExpression */;
-			targetProxy = F090245ADDCB7414F3646B70168B9DB5 /* PBXContainerItemProxy */;
+			target = 6CE2DD031B527F916CC21E8350263258 /* SwiftExpression */;
+			targetProxy = 6EFBEE0BBFE6AA6DF366D28E3A4D4430 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11F3B4F9347CF0F2BC038F0C875A53C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443E63CCE9861BEF3B87AC7152DD3796 /* SwiftExpression.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftExpression/SwiftExpression-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftExpression/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftExpression/SwiftExpression.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftExpression;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		122B8E96609FA30D85CCDF65323A2FA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3FDD89739594B20D756CAD76C8343F1 /* Pods-FindText.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FindText/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FindText/Pods-FindText.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FindText;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1B26FBD9DD7FAB94AED2BFA1BC3BE780 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58CD2448CB0BB70E9A844653205C4463 /* Pods-FindText.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FindText/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FindText/Pods-FindText.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FindText;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,6 +295,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,16 +315,88 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		66187386DBD5712E1DDDAE2E8F09103B /* Release */ = {
+		0946D85932E256370916734C14EBF113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 443E63CCE9861BEF3B87AC7152DD3796 /* SwiftExpression.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftExpression/SwiftExpression-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftExpression/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftExpression/SwiftExpression.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftExpression;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		289ED837B440AA8719A08B7AFB08B46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CD2448CB0BB70E9A844653205C4463 /* Pods-FindText.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FindText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindText/Pods-FindText.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FindText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		397A1625B1166BC0DD037D62E33ED7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443E63CCE9861BEF3B87AC7152DD3796 /* SwiftExpression.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -445,7 +421,7 @@
 			};
 			name = Release;
 		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -463,6 +439,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -477,38 +454,75 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA92CDBAE82B5DA74FE02C5004069B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FDD89739594B20D756CAD76C8343F1 /* Pods-FindText.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FindText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FindText/Pods-FindText.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FindText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E0BFD6E89EBCA419858DE748E6D37F /* Build configuration list for PBXNativeTarget "SwiftExpression" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11F3B4F9347CF0F2BC038F0C875A53C4 /* Debug */,
-				66187386DBD5712E1DDDAE2E8F09103B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A87E5A4C26E7AEB1D3B53F70A550033 /* Build configuration list for PBXNativeTarget "Pods-FindText" */ = {
+		995BB6E2DCD7DD26B128C655E4DEE185 /* Build configuration list for PBXNativeTarget "SwiftExpression" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B26FBD9DD7FAB94AED2BFA1BC3BE780 /* Debug */,
-				122B8E96609FA30D85CCDF65323A2FA6 /* Release */,
+				0946D85932E256370916734C14EBF113 /* Debug */,
+				397A1625B1166BC0DD037D62E33ED7DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6FD53F0834957129990215C2E307A2 /* Build configuration list for PBXNativeTarget "Pods-FindText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289ED837B440AA8719A08B7AFB08B46E /* Debug */,
+				FA92CDBAE82B5DA74FE02C5004069B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

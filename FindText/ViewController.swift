@@ -19,19 +19,31 @@ class ViewController: UIViewController, UITextFieldDelegate {
         inputTextField.delegate = self
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
-        if let text = textField.text, regex = Regex(pattern: text) {
+        if let text = textField.text, let regex = Regex(pattern: text) {
             highlightTextView(matching: regex)
         }
         return true
     }
     
     func highlightTextView(matching regex: Regex) {
-        let attributedString = NSMutableAttributedString(string: exampleTextView.text)
-        for range in exampleTextView.text.match(regex).ranges() {
-            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFontOfSize(14), NSForegroundColorAttributeName: UIColor.whiteColor(), NSBackgroundColorAttributeName: UIColor.purpleColor()], range: NSRange(location: exampleTextView.text.startIndex.distanceTo(range.startIndex), length: range.startIndex.distanceTo(range.endIndex)))
+        guard let text = exampleTextView.text else {
+            return
         }
+        
+        let attributedString = NSMutableAttributedString(string: text)
+        let ranges = text.match(regex).ranges()
+        
+        ranges.forEach {
+            let location = text.distance(from: text.startIndex, to: $0.lowerBound)
+            let length = text.distance(from: $0.lowerBound, to: $0.upperBound)
+            let range = NSRange(location: location, length: length)
+            
+            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 14), NSForegroundColorAttributeName: UIColor.white, NSBackgroundColorAttributeName: UIColor.purple], range: range)
+        }
+        
         exampleTextView.attributedText = attributedString
     }
 }
+
