@@ -1,9 +1,16 @@
 [![Build Status](https://travis-ci.org/lostatseajoshua/SwiftExpression.svg?branch=master)](https://travis-ci.org/lostatseajoshua/SwiftExpression) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/lostatseajoshua/SwiftExpression)
 # SwiftExpression
-Swift Expression is a Regex framework built with Swift to make it easier to work with NSRegularExpression. The framework provides low overhead to work with pattern mathcing.
+Swift Expression is a Regex framework built with Swift to make it easier to work with NSRegularExpression. The framework provides low overhead to work with pattern matching.
 
 ## Motivation
 There is not a native Regex implemenation in Swift or Objective-C as there is in other languages such as javascript or ruby. This framework's goal is to make it easier to work with Regex in a "Swifty" way. The framework is built on NSRegularExpression with just easy to call methods and easy objects to work with. To feel as native as possible the Swift `String` type has been extended with new methods for Regex.
+
+## Requirements
+Xcode 10.2
+
+Swift 4.2
+
+iOS 8.0+
 
 ## Code Example
 
@@ -19,7 +26,7 @@ if let regex = Regex("^\\d") {
 ###### Prefix operator
 The prefix operator is used as a way to initialize a regex struct and is built on the failable initalizer.
 ```swift
-let regex = <>"^\\d" {
+if let regex = <>"^\\d" {
   // use regex object
 }
 ```
@@ -39,7 +46,7 @@ if str ~= regexPatternStr {
 ```
 
 ##### String extension methods
-Get matches in string.
+Match
 ```swift
 let match = str.match(regex) // Returns a Regex.Match struct
 match.components // Returns a collection of tuples that are the substring match and range of the match [(String, Range<String.Index>)]
@@ -52,11 +59,6 @@ Replace
 str.replace(regex, with: replaceStr) // Returns a new string with matches replaced with replacement string
 ```
 
-Search
-```swift
-str.search(regex) // Returns an optional Int of the location of the range of the first match found in the string
-```
-
 Find
 ```swift
 str.find(regex) // Returns true if a match exists in the string
@@ -65,7 +67,7 @@ str.find(regex) // Returns true if a match exists in the string
 ## Installation
 ```@available(iOS 8, *)```
 
-#### CocoaPods 
+#### CocoaPods
 You can use [Cocoapods](http://cocoapods.org/) to install `SwiftExpression` by adding it to your `Podfile`:
 
 ```ruby

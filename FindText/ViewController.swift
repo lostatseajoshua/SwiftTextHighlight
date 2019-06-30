@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             let length = text.distance(from: $0.lowerBound, to: $0.upperBound)
             let range = NSRange(location: location, length: length)
             
-            attributedString.addAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 14), NSForegroundColorAttributeName: UIColor.white, NSBackgroundColorAttributeName: UIColor.purple], range: range)
+          attributedString.addAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.backgroundColor: UIColor.purple], range: range)
         }
         
         exampleTextView.attributedText = attributedString
