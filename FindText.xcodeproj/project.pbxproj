@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57490F8161BAB8B21E87C46E /* Pods_FindText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */; };
+		6156E8F42F39F454C38F0EE7 /* Pods_FindText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6595B0779726AB7CB2BDA218 /* Pods_FindText.framework */; };
 		9416BA961D4E9F9C00D84194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BA951D4E9F9C00D84194 /* AppDelegate.swift */; };
 		9416BA981D4E9F9C00D84194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416BA971D4E9F9C00D84194 /* ViewController.swift */; };
 		9416BA9B1D4E9F9C00D84194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9416BA991D4E9F9C00D84194 /* Main.storyboard */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05BB37C74A2A5D975589C2E4 /* Pods_FindTextUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindTextUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindText/Pods-FindText.release.xcconfig"; sourceTree = "<group>"; };
+		140ACDC266C66A763653CCA4 /* Pods-FindText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.debug.xcconfig"; path = "Target Support Files/Pods-FindText/Pods-FindText.debug.xcconfig"; sourceTree = "<group>"; };
+		6595B0779726AB7CB2BDA218 /* Pods_FindText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416BA921D4E9F9C00D84194 /* FindText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416BA951D4E9F9C00D84194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9416BA971D4E9F9C00D84194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,11 +52,8 @@
 		9416BAB41D4E9F9C00D84194 /* FindTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416BAB81D4E9F9C00D84194 /* FindTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTextUITests.swift; sourceTree = "<group>"; };
 		9416BABA1D4E9F9C00D84194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		944B7E361D5DA083001AD2B3 /* Pods_FindText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_FindText.framework; path = "../../Library/Developer/Xcode/DerivedData/FindText-cpxonopkhkttqqhgssicnwwqhtwo/Build/Products/Debug-iphonesimulator/Pods_FindText.framework"; sourceTree = "<group>"; };
 		94CA4FD21D5D9E55005953B6 /* SwiftExpression.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftExpression.framework; path = "../../Library/Developer/Xcode/DerivedData/FindText-cpxonopkhkttqqhgssicnwwqhtwo/Build/Products/Debug-iphonesimulator/SwiftExpression/SwiftExpression.framework"; sourceTree = "<group>"; };
-		9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindText/Pods-FindText.debug.xcconfig"; sourceTree = "<group>"; };
-		C36D275C54ADE8B25D33206D /* Pods_FindTextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindTextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB32E593E56C0FC5067ECFD9 /* Pods-FindText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindText.release.xcconfig"; path = "Target Support Files/Pods-FindText/Pods-FindText.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57490F8161BAB8B21E87C46E /* Pods_FindText.framework in Frameworks */,
+				6156E8F42F39F454C38F0EE7 /* Pods_FindText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,23 +82,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09DADE3C2B1301A8D84888BC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */,
-				22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1DC3B797617AFA7A83D9FE6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				944B7E361D5DA083001AD2B3 /* Pods_FindText.framework */,
 				94CA4FD21D5D9E55005953B6 /* SwiftExpression.framework */,
-				9F6CF3C6653921A60B9BE7F2 /* Pods_FindText.framework */,
-				C36D275C54ADE8B25D33206D /* Pods_FindTextTests.framework */,
-				05BB37C74A2A5D975589C2E4 /* Pods_FindTextUITests.framework */,
+				6595B0779726AB7CB2BDA218 /* Pods_FindText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,8 +98,8 @@
 				9416BAAC1D4E9F9C00D84194 /* FindTextTests */,
 				9416BAB71D4E9F9C00D84194 /* FindTextUITests */,
 				9416BA931D4E9F9C00D84194 /* Products */,
-				09DADE3C2B1301A8D84888BC /* Pods */,
 				1DC3B797617AFA7A83D9FE6A /* Frameworks */,
+				DDACB8DBF9786C03F86C38F0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +145,15 @@
 			path = FindTextUITests;
 			sourceTree = "<group>";
 		};
+		DDACB8DBF9786C03F86C38F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				140ACDC266C66A763653CCA4 /* Pods-FindText.debug.xcconfig */,
+				FB32E593E56C0FC5067ECFD9 /* Pods-FindText.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,12 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9416BABD1D4E9F9C00D84194 /* Build configuration list for PBXNativeTarget "FindText" */;
 			buildPhases = (
-				7BE5AA652C38161EAFA9343A /* [CP] Check Pods Manifest.lock */,
+				79C7716F5C52C8E1A836E4BF /* [CP] Check Pods Manifest.lock */,
 				9416BA8E1D4E9F9C00D84194 /* Sources */,
 				9416BA8F1D4E9F9C00D84194 /* Frameworks */,
 				9416BA901D4E9F9C00D84194 /* Resources */,
-				6AA8E9541D650F7716C59C16 /* [CP] Embed Pods Frameworks */,
-				7F4611B51021A7528F2A1A90 /* [CP] Copy Pods Resources */,
+				D9B86C1BCA95C4E5A71B5062 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,7 +219,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Joshua Alvarado";
 				TargetAttributes = {
 					9416BA911D4E9F9C00D84194 = {
@@ -250,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -293,49 +287,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6AA8E9541D650F7716C59C16 /* [CP] Embed Pods Frameworks */ = {
+		79C7716F5C52C8E1A836E4BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B86C1BCA95C4E5A71B5062 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindText/Pods-FindText-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftExpression/SwiftExpression.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftExpression.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindText/Pods-FindText-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BE5AA652C38161EAFA9343A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7F4611B51021A7528F2A1A90 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindText/Pods-FindText-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindText/Pods-FindText-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -406,19 +395,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -454,19 +452,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -494,7 +501,7 @@
 		};
 		9416BABE1D4E9F9C00D84194 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7CC76BBEE7529DB6FA39017 /* Pods-FindText.debug.xcconfig */;
+			baseConfigurationReference = 140ACDC266C66A763653CCA4 /* Pods-FindText.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -509,13 +516,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		9416BABF1D4E9F9C00D84194 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22ED3C8D272D9F7BA23DF755 /* Pods-FindText.release.xcconfig */;
+			baseConfigurationReference = FB32E593E56C0FC5067ECFD9 /* Pods-FindText.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -530,7 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -542,7 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindTextTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindText.app/FindText";
 			};
 			name = Debug;
@@ -555,7 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindTextTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindText.app/FindText";
 			};
 			name = Release;
@@ -567,7 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindTextUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = FindText;
 			};
 			name = Debug;
@@ -579,7 +586,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuaalvarado.FindTextUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = FindText;
 			};
 			name = Release;

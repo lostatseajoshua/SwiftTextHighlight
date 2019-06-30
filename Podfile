@@ -6,6 +6,6 @@ target 'FindText' do
   use_frameworks!
 
   # Pods for FindText
-  pod 'SwiftExpression', '~> 2.1'
-  
+  pod 'SwiftExpression', '~> 3.0'
+
 end

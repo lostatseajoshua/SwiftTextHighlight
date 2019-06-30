@@ -1,12 +1,16 @@
 PODS:
-  - SwiftExpression (2.0)
+  - SwiftExpression (3.0)
 
 DEPENDENCIES:
-  - SwiftExpression (~> 2.0)
+  - SwiftExpression (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftExpression
 
 SPEC CHECKSUMS:
-  SwiftExpression: 8ca5585a5b45ad6f5db32afcc3458d2e8ecc8d44
+  SwiftExpression: 19523bb8af3d021c784a14af34e58e45a14e0c79
 
-PODFILE CHECKSUM: 50f216eece8201b5956a6221e6e4055068914480
+PODFILE CHECKSUM: 55568585264f86b0514c19c8915daed215513244
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.7.3
